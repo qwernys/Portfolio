@@ -1,4 +1,4 @@
-export default function Portfolio() {
+export default function Contact() {
     return (
         <>
         </>
