@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lorem-ipsum": "^1.4.10",
+    "react-rounded-image": "^2.0.15",
     "react-router-dom": "^6.22.1"
   },
   "devDependencies": {

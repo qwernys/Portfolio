@@ -1,8 +1,15 @@
+import React from 'react'
+import ReactRoundedImage from "react-rounded-image"
+import MyPhoto from "/src/images/me.jpg"
+
 export default function Profile() {
     return (
-        <img
-        src="https://i.imgur.com/MK3eW3Am.jpg"
-        alt="Katherine Johnson"
-      />
+      <ReactRoundedImage
+        image={MyPhoto}
+        roundedColor="#321124"
+        roundedSize="3"
+        borderRadius="100"
+        resizeMode="contain"
+    />
     )
 }
