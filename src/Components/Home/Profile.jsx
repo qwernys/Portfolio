@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactRoundedImage from "react-rounded-image"
 import MyPhoto from "/src/images/me.jpg"
 
 export default function Profile() {
