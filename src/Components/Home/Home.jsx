@@ -1,6 +1,6 @@
 import Profile from "./Profile"
 
-export default function PageContent() {
+export default function Home() {
     return (
         <Profile />
     )
