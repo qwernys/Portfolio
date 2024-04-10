@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import Portfolio from './Components/Portfolio/Portfolio'
+import WeatherApp from './Components/Portfolio/Projects/WeatherApp'
 import Contact from './Components/Contact/Contact'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -19,13 +20,18 @@ function App() {
           />
           <Route
               exact
+              path="/contact"
+              element={<Contact />}
+          />
+          <Route
+              exact
               path="/portfolio"
               element={<Portfolio />}
           />
           <Route
               exact
-              path="/contact"
-              element={<Contact />}
+              path="/portfolio/weather"
+              element={<WeatherApp />}
           />
       </Routes>
       </BrowserRouter>
