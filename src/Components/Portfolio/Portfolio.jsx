@@ -1,9 +1,13 @@
-import { NavLink} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 
 export default function Portfolio() {
     return (
         <>
-            <NavLink to="/portfolio/weather" className='div-link'>WeatherApp</NavLink>
+          <nav>
+            <Link to="pokemon-app" className='div-link'>Pokemon App</Link>
+          </nav>
+
+          <Outlet/>
         </>
     )
 }
